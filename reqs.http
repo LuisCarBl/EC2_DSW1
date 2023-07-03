@@ -1,0 +1,6 @@
+
+
+POST https://ec2-dsw1.onrender.com/api/usuario/add
+Content-Type: application/x-www-form-urlencoded
+
+name=Luis&email=luis@gmail.com
