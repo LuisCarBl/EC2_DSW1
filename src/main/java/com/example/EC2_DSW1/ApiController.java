@@ -36,11 +36,11 @@ public class ApiController {
 
   @PostMapping(path="/api/curso/nuevo") // Map ONLY POST Requests
 	public @ResponseBody String addNewCurso (@RequestParam String nombre
-			, @RequestParam int creditos) {
-		Curso n = new Curso();
-		n.setNombre(nombre);
-		n.setCreditos(nombre);
-		cursoRepository.save(n);
+			, @RequestParam String creditos) {
+		Curso c = new Curso();
+		c.setNombre(nombre);
+		c.setCreditos(creditos);
+		cursoRepository.save(c);
 		return "Saved";
 	}
 
