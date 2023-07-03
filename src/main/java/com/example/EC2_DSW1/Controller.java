@@ -14,4 +14,10 @@ public class Controller {
     public String home() {
         return "LN90161994 - Luis, Carmen Blas";
     }
+
+    @GetMapping(path="/idat/codigo")
+    public String codigo() {
+        return "LN90161994";
+    }
+
 }
