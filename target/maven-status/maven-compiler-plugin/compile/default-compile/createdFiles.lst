@@ -1,5 +1,5 @@
 com/example/EC2_DSW1/ApiController.class
 com/example/EC2_DSW1/Controller.class
-com/example/EC2_DSW1/User.class
-com/example/EC2_DSW1/UserRepository.class
+com/example/EC2_DSW1/cursoRepository.class
 com/example/EC2_DSW1/Ec2Dsw1Application.class
+com/example/EC2_DSW1/Curso.class
